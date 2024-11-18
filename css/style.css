@@ -1,0 +1,96 @@
+/* Sayfa genel stili */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f9;
+    color: #333;
+}
+
+header {
+    background-color: #cd8014;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+}
+
+h1 {
+    margin: 0;
+}
+
+/* Ana içerik düzeni */
+main {
+    max-width: 1200px;
+    margin: 30px auto;
+    padding: 20px;
+    background-color: white;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+}
+
+/* Başlık stilleri */
+h2 {
+    font-size: 24px;
+    color: #d8c80e;
+    margin-bottom: 20px;
+}
+
+/* Liste düzeni */
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+li {
+    margin-bottom: 30px;
+    padding: 10px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* Resimlerin düzenlenmesi */
+img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+    margin-top: 15px;
+}
+
+/* Resimlerin yan yana gelmesi */
+li img {
+    display: block;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+/* Alt bilgi düzeni */
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
+
+footer p {
+    margin: 0;
+}
+
+/* Mobile uyumlu düzenleme */
+@media screen and (max-width: 768px) {
+    main {
+        padding: 10px;
+    }
+
+    h2 {
+        font-size: 20px;
+    }
+
+    li {
+        margin-bottom: 20px;
+        padding: 8px;
+    }
+}
